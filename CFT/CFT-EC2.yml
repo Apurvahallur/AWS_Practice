@@ -1,0 +1,8 @@
+Resources:
+  Ec2Instance:
+    Type: AWS::EC2::Instance
+    Properties: 
+      AvailabilityZone: eu-north-1a
+      InstanceType: t3.micro
+      ImageId: ami-09a9858973b288bdd
+      KeyName: ubuntuputty
